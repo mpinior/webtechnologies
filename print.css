@@ -1,0 +1,94 @@
+body {
+	width: 1080px;
+ 	background-color: white;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: black;
+	letter-spacing: 5px;
+	text-indent: 5%;
+}
+
+h2 {
+	color: black;
+}
+
+h3 {
+	color: black;
+}
+
+p:first-letter {
+	color: black;
+	font-family: Georgia;
+	font-size: 45px;
+	line-height: 5px;
+	padding-top: 1px;
+}
+
+table {
+	background-color: white;
+	border: 10px solid black;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	
+}
+
+table tr td:nth-child(2){
+	background-color: white;
+}
+
+
+table tr td:nth-child(3){
+	background-color: white;
+} 
+
+thead {
+	background-color: white;
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+div{
+	display: none;
+}
+#menu{
+	display: none;
+
+}
+
+#tresc{
+	width: 900px;
+	background-color: white;
+	margin-left: 5%;
+	height: 100%;
+}
+
+
+#menu ul li {
+	display: none;
+}
+
+img.left {
+	float: left;
+	clear: none;
+	max-width: 100%;
+}
+
+
+
+
+

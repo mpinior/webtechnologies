@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
+<head>
+	<link rel="Stylesheet" href="style.css"title="Styl główny" />
+	<link rel="stylesheet" href="alternative.css" type="text/css" title="Styl alternatywny" />
+	<link rel="stylesheet" href="print2.css" type="text/css" media="print" title="Styl do druku"/>
+	<title>ćwiczenie 2</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<script type="text/javascript" src="funkcje.js"></script>
+</head>
+<body onload="style(); checkCookie()">
+		<div class="title">
+				<h1 id="title">Ćwiczenie 2</h1>
+		  </div>
+<div id="menu">
+		<ul>
+            <li><a href="index.html">Ćwiczenie 1</a></li>
+            <li><a href="strona2.html">Ćwiczenie 2</a></li>
+            <li><a href="strona3.html">Ćwiczenie 3</a></li>
+            <li><a href="strona4.html">Ćwiczenie 4</a></li>
+		</ul>
+		<ul>
+				<li><a href="#first">Wykonane podpunkty</a></li>
+				<li><a href="#second">Odpowiedzi na pytania</a></li>
+		</ul>
+</div>
+<div id="tresc">
+	<h1 id="first"> Wykonane podpunkty </h1>
+
+		<p>
+			<i>Tekst pochylony jeden  </i>id dictum nibh. <em>Tekst pochylony dwa </em> ultrices. Sed vulputate interdum nisi, non tempus leo venenatis at.Fusce lorem lorem, dignissim id velit sed, interdum hendrerit urna. Curabitur vitae pellentesque justo. Suspendisse in elementum eros, sit amet porttitor ligula. Phasellus sed lectus placerat, faucibus lorem a, placerat ipsum.
+		</p>
+
+		<p>
+			<b>Tekst pogrubiony jeden</b> scelerisque  <strong>Tekst pogrubiony dwa</strong>iaculis vel id erat. In sit amet nisl felis. Quisque eget quam vel diam fermentum molestie. Proin ac gravida metus. Integer ultrices arcu odio, vel laoreet diam bibendum ac.Suspendisse tristique dui quis nisi hendrerit,at consectetur mi dapibus. Vivamus nulla ex, rutrum eu sem eget, mattis iaculis mi. Suspendisse vel diam velit. Cras et risus fringilla, auctor tellus ac, lacinia sapien. Aliquam quis est egestas, ultricies lectus sit amet, ornare felis. Aenean nec mattis libero. Quisque purus nisi, tincidunt vitae massa in, rutrum ullamcorper lacus. Nullam iaculis, ex ut blandit cursus, nisi ex vehicula massa, eget interdum risus leo in diam.
+		</p>
+
+		<p>
+			<code>To jest kod.</code> Wivamus <samp>To jest przykładowy wynik programu.</samp>scelerisque tristique, malesuada purus et, sagittis massa. Donec arcu nisi, egestas sed nunc at,  mollis luctus magna. Proin vel lacinia metus, vitae molestie sem. Vestibulum sit amet mi et diam luctus fermentum et at dui. Proin sit amet suscipit nisi, at tristique libero. Złamana linia: 
+			<br/> Tutaj jest. Suspendisse efficitur placerat massa eget cursus. Quisque sed condimentum lectus. 
+			x<sup>2</sup>
+			x<sub>2</sub>
+			4 &lt; 7 and 10 &gt; 4
+		</p>
+		
+		<p> Tutaj mamy Hello World w C++:</p>
+		<pre>
+		<code>
+#include &lt;iostream&gt;
+using namespace std;
+int main() 
+{
+	cout &lt;&lt; "Hello, World!";
+	return 0;
+}
+		</code>
+		</pre>
+		
+		
+	<h1 id="second">Odpowiedzi na pytania</h1>
+	<ol>
+		<li>"em" używa się, żeby coś zaakcentować, podkreślić, można nadpisać w CSS. "i" reprezentuje pochylony tekst.</li>
+		<li>"b" wyraża tylko pogrubienie tekstu, natomiast "strong" aby coś podkreslić, można go nadpisać w CSS.</li>
+		<li> "code" wyświtla kod źródłowy programu, a "samp" wynik działania programu. </li>
+		<li>Wizualnie nie ma żadnej różnicy, jednak w pierwszym wypadku mamy dwa paragrafy, a w drugim tylko jeden z dwoma liniami wymuszonymi.</li>
+		<li>Jako, że brak w moim tekście "sierot" dlatego chciałabym pokazać, jak sobie z nimi radzić: &amp;nbsp; &lt;- niełamliwa spacja (twarda spacja), jeśli da się niełamliwą spację, to w tym miejscu nigdy nie będzie przełamanego wiersza. Np. trzeba dać tą encję po i, co sprawi, że nie złamie lini w &nbsp;tym miejscu. :) (A jednak się udało i musiałam użyć tej encji!)</li>
+	</ol>
+
+		<p>
+			<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+		</p>
+
+</div>	  
+</body>
+</html>

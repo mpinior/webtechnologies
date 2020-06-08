@@ -1,0 +1,157 @@
+body{
+	background-color: antiquewhite;
+	max-width: 1080px;
+	margin: 0;
+}
+
+p{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	color: black;
+  	text-indent: 1.5em;
+
+}
+p:first-letter {
+	color: #330000;
+	font-family: Georgia;
+	font-size: 45px;
+	line-height: 5px;
+	padding-top: 1px;
+}
+
+.title h1{
+	font-size: 60px;
+	text-align: center;
+	margin-left: 255px;
+}
+
+
+h1{
+	color: #5A3AC3;
+	font-family: "Times New Roman", Garamond, serif;
+	letter-spacing: 5px;
+}
+
+h2{
+	color: #136413;
+	font-family: "Times New Roman", Garamond, serif;
+}
+
+
+h3{
+	color: #B23D03;	
+	font-family: "Times New Roman", Garamond, serif;
+}
+
+table{
+	background-color: #E85C16;
+	border: 10px solid #330000;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	
+}
+
+table tr td:nth-child(2){
+	background-color: #FF6565;
+}
+
+
+table tr td:nth-child(3){
+	background-color: #FFFFFF;
+} 
+
+thead{
+	background-color: #A5D17F;
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+ol {
+	list-style-type: upper-roman;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+ol ol ol {
+	list-style-type: lower-greek;
+}
+
+img{
+	display:block;
+}
+  
+img.left{
+	float: left;
+	
+}
+img.right{
+	float: right;
+	
+}
+div{
+	display: block;
+}
+
+#menu{
+	position: fixed;
+	width: 250px;
+	top:0px;
+	background-color: #ff9999;
+	padding-right: 4px;
+	
+}
+
+#tresc{
+	background-color: beige;
+	margin-left: 255px;
+	height: 100%;
+	padding: 10px;
+}
+
+
+a:link, a:visited {
+	display: block;
+	text-decoration: none;
+	color: #663333;
+	cursor: default;
+}
+
+a:hover {
+	background-color: #FF6565;
+	font-weight: bold;
+	color: #330000;
+	cursor: default;
+}
+
+#menu ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 5px;
+	padding: 10px;
+}
+
+#menu ul li {
+	text-align: center;
+	background:#ffe5e5;
+	margin: 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+	#menu{
+		height: 20px;
+		overflow: hidden;
+	 }
+	#menu:before{
+		content: 'MENU';
+	}
+	#menu:hover{
+		height: 100%
+
+	}
+
+  }

@@ -1,0 +1,8 @@
+#communicatorContent {
+    background-color: chocolate;
+    width: 600px;
+    height: 500px;
+    overflow: auto;
+    border: solid 4px;
+    border-color: coral;
+}
